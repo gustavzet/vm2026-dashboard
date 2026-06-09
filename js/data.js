@@ -483,14 +483,14 @@ export const countryConfig = {
     ],
   },
   SE: {
-    name: 'Sverige', flag: '🇸🇪', teamCode: null, group: null, lang: 'en',
+    name: 'Sverige', flag: '🇸🇪', teamCode: 'SE', group: 'F', lang: 'sv',
     broadcasters: [
       { name: 'SVT',  color: '#003087', free: true,  note: 'Utvalda matcher' },
       { name: 'TV4',  color: '#f7a600', free: false, note: 'Alla matcher' },
     ],
   },
   TR: {
-    name: 'Türkiye', flag: '🇹🇷', teamCode: null, group: null, lang: 'en',
+    name: 'Türkiye', flag: '🇹🇷', teamCode: 'TR', group: 'D', lang: 'en',
     broadcasters: [
       { name: 'TRT Spor', color: '#e30613', free: true,  note: 'Seçili maçlar' },
       { name: 'beIN',     color: '#e10600', free: false, note: 'Tüm maçlar' },
