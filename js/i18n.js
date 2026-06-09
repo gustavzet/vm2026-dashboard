@@ -187,7 +187,7 @@ export const i18n = {
       ES:'Spain', GB:'England', NL:'Netherlands', PT:'Portugal',
       BE:'Belgium', HR:'Croatia', RS:'Serbia', RO:'Romania',
       UA:'Ukraine', SK:'Slovakia', SI:'Slovenia', AL:'Albania',
-      GE:'Georgia', IT:'Italy', PL:'Poland', SE:'Sweden', TR:'Turkey',
+      GE:'Georgia', IT:'Italy', PL:'Poland', SE:'Sweden', TR:'Turkey',CZ:'Czech Republic',
       US:'USA', BR:'Brazil', AR:'Argentina', MX:'Mexico', CA:'Canada',
       CO:'Colombia', UY:'Uruguay', EC:'Ecuador', VE:'Venezuela', PE:'Peru',
       PY:'Paraguay', BO:'Bolivia', CW:'Curaçao', PA:'Panama', HN:'Honduras',
