@@ -7,6 +7,7 @@ import { i18n, t, formatDate } from './i18n.js';
 // STATE
 // ═══════════════════════════════════════════════════════════════
 let currentCountry  = 'GB';
+let currentTVRegion = 'GB';
 let currentLang     = 'en';
 let currentFilter   = 'all';
 let currentTab      = 'spielplan';
@@ -17,14 +18,23 @@ let countdownTimer  = null;
 // ═══════════════════════════════════════════════════════════════
 function readURLParams() {
   const params = new URLSearchParams(window.location.search);
-  const rawCountry = (params.get('country') ?? '').toUpperCase();
-  const rawLang    =  params.get('lang') ?? '';
+  const rawCountry   = (params.get('country') ?? '').toUpperCase();
+  const rawTVRegion  = (params.get('tv') ?? '').toUpperCase();
+  const rawLang      =  params.get('lang') ?? '';
 
   if (countryConfig[rawCountry]) {
     currentCountry = rawCountry;
   } else {
     const saved = localStorage.getItem('wm_country');
     if (saved && countryConfig[saved]) currentCountry = saved;
+  }
+
+  if (countryConfig[rawTVRegion]) {
+    currentTVRegion = rawTVRegion;
+  } else {
+    const savedTV = localStorage.getItem('wm_tv_region');
+    if (savedTV && countryConfig[savedTV]) currentTVRegion = savedTV;
+    else currentTVRegion = currentCountry;
   }
 
   if (i18n[rawLang]) {
@@ -102,10 +112,10 @@ function getTVColor(tvName) {
 
 function renderTVBadge(m, mini = false) {
   const cls = mini ? 'tv-mini' : 'tv-badge';
-  const cc  = countryConfig[currentCountry];
+  const cc  = countryConfig[currentTVRegion];
 
   // Für Deutschland: exakte Spieldaten nutzen
-  if (currentCountry === 'DE') {
+  if (currentTVRegion === 'DE') {
     // Kein Badge wenn Sender noch unbekannt
     if (!m.tv) return '<span class="'+cls+'" style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.2);font-size:0.65rem">?</span>';
     const color = getTVColor(m.tv);
@@ -296,7 +306,8 @@ function renderFavTab() {
   // ── TV-Rechte Box ──
   const tvBox = document.getElementById('tv-rights-box');
   if (tvBox) {
-    tvBox.innerHTML = cc.broadcasters.map(b => `
+    const tvcc = countryConfig[currentTVRegion];
+    tvBox.innerHTML = tvcc.broadcasters.map(b => `
       <div class="tv-rights-row">
         <span class="tv-mini" style="background:${b.color};color:#fff">${b.name}</span>
         <span class="tv-rights-note">
@@ -906,21 +917,26 @@ function toggleSettings() {
 }
 
 function applySettings() {
-  const selCountry = document.getElementById('sel-country')?.value;
-  const selLang    = document.getElementById('sel-lang')?.value;
-  if (selCountry && countryConfig[selCountry]) currentCountry = selCountry;
-  if (selLang    && i18n[selLang])             currentLang    = selLang;
-  localStorage.setItem('wm_country', currentCountry);
-  localStorage.setItem('wm_lang',    currentLang);
+  const selCountry  = document.getElementById('sel-country')?.value;
+  const selTVRegion = document.getElementById('sel-tv-region')?.value;
+  const selLang     = document.getElementById('sel-lang')?.value;
+  if (selCountry  && countryConfig[selCountry])  currentCountry  = selCountry;
+  if (selTVRegion && countryConfig[selTVRegion]) currentTVRegion = selTVRegion;
+  if (selLang     && i18n[selLang])              currentLang     = selLang;
+  localStorage.setItem('wm_country',   currentCountry);
+  localStorage.setItem('wm_tv_region', currentTVRegion);
+  localStorage.setItem('wm_lang',      currentLang);
   document.getElementById('settings-panel')?.classList.remove('open');
   renderAll();
 }
 
 function syncSettingsDropdowns() {
-  const selCountry = document.getElementById('sel-country');
-  const selLang    = document.getElementById('sel-lang');
-  if (selCountry) selCountry.value = currentCountry;
-  if (selLang)    selLang.value    = currentLang;
+  const selCountry  = document.getElementById('sel-country');
+  const selTVRegion = document.getElementById('sel-tv-region');
+  const selLang     = document.getElementById('sel-lang');
+  if (selCountry)  selCountry.value  = currentCountry;
+  if (selTVRegion) selTVRegion.value = currentTVRegion;
+  if (selLang)     selLang.value     = currentLang;
 }
 
 // ═══════════════════════════════════════════════════════════════
