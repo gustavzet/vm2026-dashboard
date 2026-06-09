@@ -6,8 +6,8 @@ import { i18n, t, formatDate } from './i18n.js';
 // ═══════════════════════════════════════════════════════════════
 // STATE
 // ═══════════════════════════════════════════════════════════════
-let currentCountry  = 'DE';
-let currentLang     = 'de';
+let currentCountry  = 'GB';
+let currentLang     = 'en';
 let currentFilter   = 'all';
 let currentTab      = 'spielplan';
 let countdownTimer  = null;
@@ -32,7 +32,7 @@ function readURLParams() {
   } else {
     const savedLang = localStorage.getItem('wm_lang');
     if (savedLang && i18n[savedLang]) currentLang = savedLang;
-    else currentLang = countryConfig[currentCountry]?.lang ?? 'de';
+    else currentLang = countryConfig[currentCountry]?.lang ?? 'en';
   }
 }
 
