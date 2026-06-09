@@ -145,8 +145,38 @@ export const countryConfig = {
       { name: 'Nova',     color: '#e30613', free: false, note: 'All matches' },
     ],
   },
+  BA: {
+    tzOffset: 2,
+    name: 'Bosnia & Herzegovina', flag: '🇧🇦', teamCode: 'BA', group: 'B', lang: 'en',
+    broadcasters: [
+      { name: 'BHRT', color: '#003087', free: true, note: 'Selected matches' },
+    ],
+  },
+  SC: {
+    tzOffset: 1,
+    name: 'Scotland', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', teamCode: 'SC', group: 'C', lang: 'en',
+    broadcasters: [
+      { name: 'BBC Scotland', color: '#cc0000', free: true,  note: 'Selected matches' },
+      { name: 'ITV',          color: '#005eb8', free: true,  note: 'Selected matches' },
+    ],
+  },
+  NO: {
+    tzOffset: 2,
+    name: 'Norway', flag: '🇳🇴', teamCode: 'NO', group: 'I', lang: 'en',
+    broadcasters: [
+      { name: 'NRK',  color: '#003087', free: true,  note: 'Selected matches' },
+      { name: 'TV 2', color: '#e30613', free: false, note: 'All matches' },
+    ],
+  },
 
   // ── AMERICAS ─────────────────────────────────────────────────────────────────
+  HT: {
+    tzOffset: -4,
+    name: 'Haiti', flag: '🇭🇹', teamCode: 'HT', group: 'C', lang: 'en',
+    broadcasters: [
+      { name: 'HBN', color: '#003087', free: true, note: 'Selected matches' },
+    ],
+  },
   US: {
 	tzOffset: -4,
     name: 'USA', flag: '🇺🇸', teamCode: 'US', group: 'D', lang: 'en',
@@ -281,6 +311,36 @@ export const countryConfig = {
   },
 
   // ── AFRIKA ───────────────────────────────────────────────────────────────────
+  DZ: {
+    tzOffset: 1,
+    name: 'Algeria', flag: '🇩🇿', teamCode: 'DZ', group: 'J', lang: 'fr',
+    broadcasters: [
+      { name: 'ENTV',  color: '#006233', free: true,  note: 'Matchs sélectionnés' },
+      { name: 'beIN',  color: '#e10600', free: false, note: 'Tous les matchs' },
+    ],
+  },
+  CV: {
+    tzOffset: -1,
+    name: 'Cape Verde', flag: '🇨🇻', teamCode: 'CV', group: 'H', lang: 'pt',
+    broadcasters: [
+      { name: 'TCV', color: '#003087', free: true, note: 'Selected matches' },
+    ],
+  },
+  CD: {
+    tzOffset: 1,
+    name: 'DR Congo', flag: '🇨🇩', teamCode: 'CD', group: 'K', lang: 'fr',
+    broadcasters: [
+      { name: 'RTNC', color: '#003087', free: true, note: 'Matchs sélectionnés' },
+    ],
+  },
+  JO: {
+    tzOffset: 3,
+    name: 'Jordan', flag: '🇯🇴', teamCode: 'JO', group: 'J', lang: 'en',
+    broadcasters: [
+      { name: 'JRTV', color: '#007a3d', free: true,  note: 'Selected matches' },
+      { name: 'beIN', color: '#e10600', free: false, note: 'All matches' },
+    ],
+  },
   MA: {
 	tzOffset: 1,
     name: 'Maroc', flag: '🇲🇦', teamCode: 'MA', group: 'F', lang: 'fr',
