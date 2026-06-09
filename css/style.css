@@ -580,7 +580,7 @@ body {
 
 @media (max-width: 600px) {
   .groups-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .standings-table col.col-stat  { width: 22px; }

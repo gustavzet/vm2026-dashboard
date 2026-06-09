@@ -34,5 +34,5 @@ All credit goes to [TAkustik](https://github.com/TAkustik/wm2026-dashboard) for 
 
 
 ### 📱 Mobile Layout
-- The **Groups tab** now displays in **2 columns on mobile** (≤600px) instead of 3, preventing the team flag from overlapping the position number
+- The **Groups tab** now displays in **1 column on mobile** (≤600px) instead of 3, preventing the team flag from overlapping the position number
 - Column widths and font sizes in the standings table are tightened on small screens for a cleaner fit
