@@ -137,6 +137,14 @@ export const countryConfig = {
       { name: 'GPB', color: '#003087', free: true, note: 'Selected matches' },
     ],
   },
+  CZ: {
+    tzOffset: 2,
+    name: 'Czech Republic', flag: '🇨🇿', teamCode: 'CZ', group: 'A', lang: 'en',
+    broadcasters: [
+      { name: 'ČT Sport', color: '#003087', free: true,  note: 'Selected matches' },
+      { name: 'Nova',     color: '#e30613', free: false, note: 'All matches' },
+    ],
+  },
 
   // ── AMERICAS ─────────────────────────────────────────────────────────────────
   US: {
