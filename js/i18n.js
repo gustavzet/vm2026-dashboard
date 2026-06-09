@@ -547,6 +547,101 @@ export const i18n = {
       NZ:'Nova Zelândia', UZ:'Uzbequistão', QA:'Catar', CN:'China', TH:'Tailândia', IQ:'Iraque',
     },
   },
+  // ═══════════════════════════════════════════════════════════════
+  // SVENSKA
+  // ═══════════════════════════════════════════════════════════════
+  sv: {
+    schedule:           'Spelschema',
+    groups:             'Grupper',
+    bracket:            'Bracket',
+    favorite:           'Favorit',
+
+    filter_all:         'Alla',
+    filter_today:       'Idag',
+    filter_freetv:      'Fri TV',
+
+    next_match:         '⚡ Nästa Match',
+    kickoff_in:         'Avspark om',
+    all_group_matches:  'Alla gruppspel',
+    tv_rights:          'TV-rättigheter',
+    no_next_match:      'Inga fler matcher',
+
+    group:              'Grupp',
+    pos:                'Pos',
+    played:             'S',
+    won:                'V',
+    drawn:              'O',
+    lost:               'F',
+    goals:              'Mål',
+    points:             'Pkt',
+
+    round_of_32:        'Åttondelsfinaler',
+    round_of_16:        'Sextondelsfinaler',
+    quarter_final:      'Kvartsfinal',
+    semi_final:         'Semifinal',
+    third_place:        '3:e plats',
+    final:              'Final',
+    champion:           '🏆 Världsmästare',
+
+    no_matches:         'Inga matcher hittades',
+    running:            'Live!',
+    finished:           'Slutat',
+    tbd:                'TBD',
+
+    days:               'd',
+
+    free_tv:            '📺 Fri TV',
+    pay_tv:             '💳 Betal-TV',
+    tv_unknown:         '❓ Okänt',
+
+    settings_title:     'Inställningar',
+    settings_country:   'Mitt land / Favorit',
+    settings_language:  'Språk',
+    settings_apply:     'Tillämpa',
+    settings_hint:      'Home Assistant: URL-parameter ?country=SE&lang=sv möjlig',
+
+    date_locale:        'sv-SE',
+    clock_locale:       'sv-SE',
+
+    weekdays: ['Sön', 'Mån', 'Tis', 'Ons', 'Tor', 'Fre', 'Lör'],
+    months:   ['Jan', 'Feb', 'Mar', 'Apr', 'Maj', 'Jun',
+               'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'],
+
+    rounds: {
+      R32: 'ÅF',
+      R16: 'R16',
+      QF:  'KF',
+      SF:  'SF',
+      P3:  '3:a',
+      F:   'Final',
+    },
+
+    teams: {
+      // Europa
+      DE:'Tyskland', AT:'Österrike', CH:'Schweiz', FR:'Frankrike',
+      ES:'Spanien', GB:'England', NL:'Nederländerna', PT:'Portugal',
+      BE:'Belgien', HR:'Kroatien', RS:'Serbien', RO:'Rumänien',
+      UA:'Ukraina', SK:'Slovakien', SI:'Slovenien', AL:'Albanien',
+      GE:'Georgien', IT:'Italien', PL:'Polen', SE:'Sverige', TR:'Turkiet',
+      // Americas
+      US:'USA', BR:'Brasilien', AR:'Argentina', MX:'Mexiko', CA:'Kanada',
+      CO:'Colombia', UY:'Uruguay', EC:'Ecuador', VE:'Venezuela', PE:'Peru',
+      PY:'Paraguay', BO:'Bolivia', CW:'Curaçao', PA:'Panama', HN:'Honduras',
+      CR:'Costa Rica', JM:'Jamaica',
+      // Afrika
+      MA:'Marocko', SN:'Senegal', EG:'Egypten', NG:'Nigeria', CM:'Kamerun',
+      CI:'Elfenbenskusten', ZA:'Sydafrika', TN:'Tunisien', GH:'Ghana',
+      TZ:'Tanzania', AO:'Angola', BF:'Burkina Faso', CF:'Centralafrika', MZ:'Moçambique',
+      // Asien & Oceanien
+      JP:'Japan', KR:'Sydkorea', SA:'Saudiarabien', IR:'Iran', AU:'Australien',
+      NZ:'Nya Zeeland', UZ:'Uzbekistan', QA:'Qatar', CN:'Kina', TH:'Thailand', IQ:'Irak',
+      // Extra
+      BA:'Bosnien och Hercegovina', CZ:'Tjeckien', HT:'Haiti', SC:'Skottland',
+      CV:'Kap Verde', CD:'DR Kongo', DZ:'Algeriet', JO:'Jordanien',
+      NO:'Norge',
+    },
+  },
+
 };
 
 // ─── Hilfsfunktion ───────────────────────────────────────────────────────────
