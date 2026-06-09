@@ -31,3 +31,8 @@ All credit goes to [TAkustik](https://github.com/TAkustik/wm2026-dashboard) for 
 ### 🗂 Country Dropdowns
 - Both the **Favourite Country** and **TV Region** dropdowns are now **sorted alphabetically within each region**
 - All 48 tournament teams are now present and selectable
+
+
+### 📱 Mobile Layout
+- The **Groups tab** now displays in **2 columns on mobile** (≤600px) instead of 3, preventing the team flag from overlapping the position number
+- Column widths and font sizes in the standings table are tightened on small screens for a cleaner fit

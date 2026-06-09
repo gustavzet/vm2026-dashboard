@@ -578,6 +578,28 @@ body {
   gap: 8px;
 }
 
+@media (max-width: 600px) {
+  .groups-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .standings-table col.col-stat  { width: 22px; }
+  .standings-table col.col-goals { width: 34px; }
+  .standings-table col.col-pts   { width: 22px; }
+
+  .standings-table th,
+  .standings-table td {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 0.62rem;
+  }
+
+  .standings-table th:first-child,
+  .standings-table td:first-child {
+    padding-left: 5px;
+  }
+}
+
 .group-block {
   background: var(--surface);
   border: 1px solid var(--border);
