@@ -4,7 +4,7 @@ A live dashboard for tracking the FIFA World Cup 2026 — schedules, group stand
 
 🔗 **[https://gustavzet.github.io/vm2026-dashboard/](https://gustavzet.github.io/vm2026-dashboard/)**
 
----
+--- 
 
 All credit goes to [TAkustik](https://github.com/TAkustik/wm2026-dashboard) for building the original dashboard. This fork includes a number of improvements, bug fixes, and new features described below — developed with the help of [Claude](https://claude.ai) by Anthropic.
 
