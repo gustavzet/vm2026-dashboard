@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-09T05:54:11.750Z",
+  "updatedAt": "2026-06-11T20:37:35.060Z",
   "scores": {
     "2026-06-11_mexiko": {
-      "score": null,
+      "score": "1:0",
       "isLive": false,
       "isFinished": false,
       "minute": null
@@ -25,12 +25,6 @@
       "isFinished": false,
       "minute": null
     },
-    "2026-06-13_australien": {
-      "score": null,
-      "isLive": false,
-      "isFinished": false,
-      "minute": null
-    },
     "2026-06-13_katar": {
       "score": null,
       "isLive": false,
@@ -44,6 +38,12 @@
       "minute": null
     },
     "2026-06-14_haiti": {
+      "score": null,
+      "isLive": false,
+      "isFinished": false,
+      "minute": null
+    },
+    "2026-06-14_australien": {
       "score": null,
       "isLive": false,
       "isFinished": false,
@@ -97,12 +97,6 @@
       "isFinished": false,
       "minute": null
     },
-    "2026-06-16_österreich": {
-      "score": null,
-      "isLive": false,
-      "isFinished": false,
-      "minute": null
-    },
     "2026-06-16_frankreich": {
       "score": null,
       "isLive": false,
@@ -116,6 +110,12 @@
       "minute": null
     },
     "2026-06-17_argentinien": {
+      "score": null,
+      "isLive": false,
+      "isFinished": false,
+      "minute": null
+    },
+    "2026-06-17_österreich": {
       "score": null,
       "isLive": false,
       "isFinished": false,
