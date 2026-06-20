@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T01:56:27.649Z",
+  "updatedAt": "2026-06-20T06:22:51.285Z",
   "scores": {
     "80099": {
       "score": "2:0",
@@ -170,9 +170,9 @@
       "minute": null
     },
     "80128": {
-      "score": null,
+      "score": "0:1",
       "isLive": false,
-      "isFinished": false,
+      "isFinished": true,
       "minute": null
     },
     "80129": {
@@ -189,8 +189,8 @@
     },
     "80131": {
       "score": "3:0",
-      "isLive": true,
-      "isFinished": false,
+      "isLive": false,
+      "isFinished": true,
       "minute": null
     },
     "80132": {
@@ -439,6 +439,10 @@
       "tv": "ZDF",
       "freeTv": true
     },
+    "80100": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
     "80103": {
       "tv": "ZDF",
       "freeTv": true
@@ -512,6 +516,10 @@
       "freeTv": true
     },
     "80126": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80131": {
       "tv": "ZDF",
       "freeTv": true
     }
