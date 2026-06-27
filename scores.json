@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T01:57:58.537Z",
+  "updatedAt": "2026-06-27T05:57:30.067Z",
   "scores": {
     "80099": {
       "score": "2:0",
@@ -375,26 +375,26 @@
     },
     "80162": {
       "score": "0:0",
-      "isLive": true,
-      "isFinished": false,
+      "isLive": false,
+      "isFinished": true,
       "minute": null
     },
     "80163": {
-      "score": "0:0",
-      "isLive": true,
-      "isFinished": false,
+      "score": "0:1",
+      "isLive": false,
+      "isFinished": true,
       "minute": null
     },
     "80164": {
-      "score": null,
+      "score": "1:5",
       "isLive": false,
-      "isFinished": false,
+      "isFinished": true,
       "minute": null
     },
     "80165": {
-      "score": null,
+      "score": "1:1",
       "isLive": false,
-      "isFinished": false,
+      "isFinished": true,
       "minute": null
     },
     "80166": {
@@ -631,6 +631,10 @@
       "tv": "ZDF",
       "freeTv": true
     },
+    "80127": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
     "80131": {
       "tv": "ZDF",
       "freeTv": true
@@ -712,6 +716,22 @@
       "freeTv": true
     },
     "80159": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80160": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80161": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80164": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80165": {
       "tv": "ZDF",
       "freeTv": true
     }
