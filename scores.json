@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:41:10.290Z",
+  "updatedAt": "2026-07-04T19:54:24.752Z",
   "scores": {
     "80099": {
       "score": "2:0",
@@ -506,13 +506,13 @@
       "minute": null
     },
     "82112": {
-      "score": "3:5",
+      "score": "1:1",
       "isLive": false,
       "isFinished": true,
       "minute": null
     },
     "82113": {
-      "score": "3:2",
+      "score": "1:1",
       "isLive": false,
       "isFinished": true,
       "minute": null
@@ -524,9 +524,9 @@
       "minute": null
     },
     "82127": {
-      "score": "0:1",
-      "isLive": true,
-      "isFinished": false,
+      "score": "0:3",
+      "isLive": false,
+      "isFinished": true,
       "minute": null
     },
     "82128": {
