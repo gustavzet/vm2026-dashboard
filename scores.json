@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T01:25:28.497Z",
+  "updatedAt": "2026-07-05T05:36:40.473Z",
   "scores": {
     "80099": {
       "score": "2:0",
@@ -844,6 +844,14 @@
       "freeTv": true
     },
     "80161": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80162": {
+      "tv": "ZDF",
+      "freeTv": true
+    },
+    "80163": {
       "tv": "ZDF",
       "freeTv": true
     },
