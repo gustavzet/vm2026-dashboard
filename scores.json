@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T18:12:05.142Z",
+  "updatedAt": "2026-07-07T20:15:12.820Z",
   "scores": {
     "80099": {
       "score": "2:0",
@@ -566,8 +566,8 @@
       "minute": null
     },
     "82134": {
-      "score": null,
-      "isLive": false,
+      "score": "0:0",
+      "isLive": true,
       "isFinished": false,
       "minute": null
     },
